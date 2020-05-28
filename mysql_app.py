@@ -16,7 +16,7 @@ cur = db.cursor()
 
 #query = "SQL Sentence"
 #cur.execute("set names utf8")
-cur.execute('select * from producttbl')
+cur.execute('select * from shopdb.iotmachine')
 
 while True:
     product = cur.fetchone()
